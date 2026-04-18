@@ -1,0 +1,91 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background-image: url("https://wallpapershome.com/images/pages/pic_h/3757.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 350px;
+  padding: 40px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  outline: none;
+  color: black;
+}
+
+.input-group label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  color: blacka;
+  transition: 0.3s;
+}
+
+.input-group input:focus ~ label,
+.input-group input:valid ~ label {
+  top: -10px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.options a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #fff;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.register a {
+  color: #fff;
+  text-decoration: none;
+}
